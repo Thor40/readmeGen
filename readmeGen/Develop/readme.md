@@ -1,10 +1,10 @@
 
-  # readme
-  test
+  # ReadmeGen
+  a readme.md generator using command-line prompts with node
 
   #### Table of Contents
   * [Getting Started](https://github.com/Thor40/readmeGen/blob/master/readmeGen/README.md#getting-started)
-  * [Running Test]https://github.com/Thor40/readmeGen/blob/master/readmeGen/README.md#running-test)
+  * [Running Test](https://github.com/Thor40/readmeGen/blob/master/readmeGen/README.md#running-test)
   * [This project is built with](https://github.com/Thor40/readmeGen/blob/master/readmeGen/README.md#this-project-is-build-with)
   * [Contributing](https://github.com/Thor40/readmeGen/blob/master/readmeGen/README.md#contributing)
   * [GitHub Link](https://github.com/Thor40/readmeGen/blob/master/readmeGen/README.md#github-link)
@@ -13,45 +13,45 @@
   * [Comments](https://github.com/Thor40/readmeGen/blob/master/readmeGen/README.md#comments)
   * 
   ## Getting Started
-  Please add the following to run readme:
+  Please add the following to run ReadmeGen:
   
   ```
-  test
+  This project uses node, must install inquirer npm
   ```
   
   ## Running Test
   This is how you run the automated tests for this system
   
   ```
-  test
+  call node index in command-line to run test
   ```
   
   ## This project is build with:
   
   ```
-  JavaScript
+  JavaScript, ES6, Node
   ```
   
   ## Contributing
-  Created by nick with the help from
-  undefined
+  Created by Nick with the help from
+  Coffee
   ## GitHub Link
   https://github.com/Thor40/readmeGen/blob/master/readmeGen
   
   ## Version
   ```
-  test
+  1.0
   ```
   
   
   ## Acknowledgments
   ```
-  test
+  Sleep
   ```
   
   ## License
-  test
+  MIT license
   
   ## Comments
-  test
+  Made for UT Coding Bootcamp UX/UI
   
