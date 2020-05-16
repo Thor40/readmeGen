@@ -72,8 +72,17 @@ function generateMarkdown(data) {
   return `
   # ${data.title}
   ${data.description}
+
   #### Table of Contents
-  [Getting Started](#gettingstarted)
+  * [Getting Started](${data.link}/README.md#getting-started)
+  * [Running Test](${data.link}/README.md#running-test)
+  * [This project is built with](${data.link}/README.md#this-project-is-build-with)
+  * [Contributing](${data.link}/README.md#contributing)
+  * [GitHub Link](${data.link}/README.md#github-link)
+  * [Version](${data.link}/README.md#version)
+  * [Acknowledgements](${data.link}/README.md#acknowledgments)
+  * [Comments](${data.link}/README.md#comments)
+  * 
   ## Getting Started
   Please add the following to run ${data.title}:
   ${generatePreR(data.pre)}

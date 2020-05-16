@@ -1,66 +1,57 @@
 
-  # readmeGen
-  a readme generator that uses user input in the command line
+  # readme
+  test
+
+  #### Table of Contents
+  * [Getting Started](https://github.com/Thor40/readmeGen/blob/master/readmeGen/README.md#getting-started)
+  * [Running Test]https://github.com/Thor40/readmeGen/blob/master/readmeGen/README.md#running-test)
+  * [This project is built with](https://github.com/Thor40/readmeGen/blob/master/readmeGen/README.md#this-project-is-build-with)
+  * [Contributing](https://github.com/Thor40/readmeGen/blob/master/readmeGen/README.md#contributing)
+  * [GitHub Link](https://github.com/Thor40/readmeGen/blob/master/readmeGen/README.md#github-link)
+  * [Version](https://github.com/Thor40/readmeGen/blob/master/readmeGen/README.md#version)
+  * [Acknowledgements](https://github.com/Thor40/readmeGen/blob/master/readmeGen/README.md#acknowledgments)
+  * [Comments](https://github.com/Thor40/readmeGen/blob/master/readmeGen/README.md#comments)
+  * 
   ## Getting Started
-  Please add the following to run readmeGen:
+  Please add the following to run readme:
   
   ```
-  install inquirer npm
+  test
   ```
   
   ## Running Test
   This is how you run the automated tests for this system
   
   ```
-  to run test, call index in command-line (e.g. node index)
+  test
   ```
   
   ## This project is build with:
   
   ```
-  JavaScript, ES6, Node
+  JavaScript
   ```
   
   ## Contributing
-  Created by Nick with the help from
-  Coffee
+  Created by nick with the help from
+  undefined
   ## GitHub Link
-  https://github.com/Thor40/readmeGen
+  https://github.com/Thor40/readmeGen/blob/master/readmeGen
   
   ## Version
   ```
-  1.0
+  test
   ```
   
   
   ## Acknowledgments
   ```
-  Big thanks to coffee, lack of sleep, and support from wife
+  test
   ```
   
   ## License
-  MIT license
-
-  Copyright (c) [2020] [Nick Kosik]
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+  test
   
   ## Comments
-  Made for UT Coding Bootcamp UX/UI
+  test
   
