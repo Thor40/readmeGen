@@ -13,7 +13,7 @@
   * [Version](https://github.com/Thor40/readmeGen/blob/master/readmeGen/README.md#version)
   * [Acknowledgements](https://github.com/Thor40/readmeGen/blob/master/readmeGen/README.md#acknowledgments)
   * [Comments](https://github.com/Thor40/readmeGen/blob/master/readmeGen/README.md#comments)
-  ## Getting Started (#gettingstarted)
+  ## Getting Started
   Please add the following to run readmeGen:
   ```
   install inquirer npm
