@@ -3,7 +3,17 @@
   A program that generates a README.md file from prompts in the command-line.
   It was created as a way to increase productivity efficiency by generating the readme file for a project,
   enabling the user to spend more time on the project.
-  ## Getting Started
+
+  #### Table of Contents
+  * [Getting Started](https://github.com/Thor40/readmeGen/blob/master/readmeGen/README.md#getting-started)
+  * [Running Test](https://github.com/Thor40/readmeGen/blob/master/readmeGen/README.md#running-test)
+  * [This project is built with](https://github.com/Thor40/readmeGen/blob/master/readmeGen/README.md#this-project-is-build-with)
+  * [Contributing](https://github.com/Thor40/readmeGen/blob/master/readmeGen/README.md#contributing)
+  * [GitHub Link](https://github.com/Thor40/readmeGen/blob/master/readmeGen/README.md#github-link)
+  * [Version](https://github.com/Thor40/readmeGen/blob/master/readmeGen/README.md#version)
+  * [Acknowledgements](https://github.com/Thor40/readmeGen/blob/master/readmeGen/README.md#acknowledgments)
+  * [Comments](https://github.com/Thor40/readmeGen/blob/master/readmeGen/README.md#comments)
+  ## Getting Started (#gettingstarted)
   Please add the following to run readmeGen:
   ```
   install inquirer npm

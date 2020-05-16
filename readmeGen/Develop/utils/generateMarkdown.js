@@ -72,6 +72,8 @@ function generateMarkdown(data) {
   return `
   # ${data.title}
   ${data.description}
+  #### Table of Contents
+  [Getting Started](#gettingstarted)
   ## Getting Started
   Please add the following to run ${data.title}:
   ${generatePreR(data.pre)}
