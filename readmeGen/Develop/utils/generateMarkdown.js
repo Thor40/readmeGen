@@ -1,16 +1,3 @@
-// function to generate markdown for README
-// ${data 
-//   .map(({ title, description, preReq, runT, languages, contr, link, version, ack }))}
-
-// const usesNode = nodeUse => {
-//   if(!node) {
-//     return '';
-//   }
-//   return `
-//   !-- This project uses Node.js --!
-//   `;
-// };
-
 let inlineArr = ["```"];
 
 const generatePreR = preReqText => {
@@ -24,13 +11,72 @@ const generatePreR = preReqText => {
   `;
 };
 
+const generateTest = runTText => {
+  if (!runTText) {
+    return '';
+  }
+  return `
+  ${inlineArr}
+  ${runTText}
+  ${inlineArr}
+  `;
+};
+
+const generateV = versionText => {
+  if (!versionText) {
+    return '';
+  }
+  return `
+  ## Version
+  ${inlineArr}
+  ${versionText}
+  ${inlineArr}
+  `;
+};
+
+const generateAck = ackText => {
+  if (!ackText) {
+    return '';
+  }
+  return `
+  ## Acknowledgments
+  ${inlineArr}
+  ${ackText}
+  ${inlineArr}
+  `;
+};
+
+const generateLang = langText => {
+  if (!langText) {
+    return '';
+  }
+  let str = langText.join(', ');
+  return `
+  ${inlineArr}
+  ${str}
+  ${inlineArr}
+  `
+};
+
 function generateMarkdown(data) {
   return `
   # ${data.title}
   ${data.description}
   ## Getting Started
-  Please add the following to run the ${data.title}:
+  Please add the following to run ${data.title}:
   ${generatePreR(data.pre)}
+  ## Running Test
+  This is how you run the automated tests for this system
+  ${generateTest(data.runT)}
+  ## This project is build with:
+  ${generateLang(data.languages)}
+  ## Contributing
+  Created by ${data.user} with the help from
+  ${data.contr}
+  ## GitHub Link
+  ${data.link}
+  ${generateV(data.version)}
+  ${generateAck(data.ack)}
 
 `;
 }

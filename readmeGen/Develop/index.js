@@ -7,6 +7,19 @@ const questionsPrompt = () => {
     return inquirer.prompt([
         {
             type: 'input',
+            name: 'user',
+            message: 'What is your name? (Required)',
+            validate: titleInput => {
+                if (titleInput) {
+                    return true;
+                } else {
+                    console.log('Please enter your name!');
+                    return false
+                }
+            }
+        },
+        {
+            type: 'input',
             name: 'title',
             message: 'What is your project title? (Required)',
             validate: titleInput => {
@@ -79,17 +92,16 @@ const questionsPrompt = () => {
             }
           },
           {
+            type: 'confirm',
+            name: 'confirmVer',
+            message: 'Would you like include a project version?',
+            default: true
+        },
+          {
             type: 'input',
             name: 'version',
-            message: 'What Version is your project? (Required)',
-            validate: nameInput => {
-              if (nameInput) {
-                return true;
-              } else {
-                console.log('Please enter your project Version!');
-                return false;
-              }
-            }
+            message: 'What Version is your project?',
+            when: ({ confirmVer }) => confirmVer
           },
           {
             type: 'confirm',
@@ -116,14 +128,3 @@ questionsPrompt()
             console.log('Your project ReadME has been created!')
         });
     });
-// // function to write README file
-// function writeToFile(fileName, data) {
-// }
-
-// // function to initialize program
-// function init() {
-
-// }
-
-// // function call to initialize program
-// init();
