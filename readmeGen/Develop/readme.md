@@ -1,29 +1,31 @@
 
   # readmeGen
-  a program that generates a README.md file from prompts in the command-line
+  readmeGen
   ## Getting Started
-  Please add the following to run the readmeGen:
+  Please add the following to run readmeGen:
   
   ```
-  install inquirer npm
+  install inquirer
   ```
   
   ## Running Test
   This is how you run the automated tests for this system
   
   ```
-  Run the program using Node.js in the command-prompt (e.g. node index)
+  run on commandlin with node
   ```
   
   ## This project is build with:
   
-  JavaScript, ES6, Node
+  ```
+  JavaScript, HTML, CSS, ES6, jQuery, Bootstrap, Node
+  ```
   
   ## Contributing
   Created by Nick with the help from
-  Me and myself
+  undefined
   ## GitHub Link
-  readmeGen.github.com
+  commText
   
   ## Version
   ```
@@ -33,7 +35,12 @@
   
   ## Acknowledgments
   ```
-  Big thanks to coffee, lack of sleep, and my wife for being supportive
+  me
   ```
   
-
+  ## License
+  Please paste your license information here:
+  
+  ## Comments
+  make with love
+  

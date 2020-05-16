@@ -58,6 +58,16 @@ const generateLang = langText => {
   `
 };
 
+const generateComm = commText => {
+  if (!commText) {
+    return '';
+  }
+  return `
+  ## Comments
+  ${commText}
+  `;
+};
+
 function generateMarkdown(data) {
   return `
   # ${data.title}
@@ -77,7 +87,9 @@ function generateMarkdown(data) {
   ${data.link}
   ${generateV(data.version)}
   ${generateAck(data.ack)}
-
+  ## License
+  Please paste your license information here:
+  ${generateComm(data.comm)}
 `;
 }
 

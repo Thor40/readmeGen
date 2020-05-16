@@ -1,6 +1,8 @@
 
   # readmeGen
-  A program that generates a README.md file from prompts in the command-line
+  A program that generates a README.md file from prompts in the command-line.
+  It was created as a way to increase productivity efficiency by generating the readme file for a project,
+  enabling the user to spend more time on the project.
   ## Getting Started
   Please add the following to run readmeGen:
   ```
@@ -22,7 +24,7 @@
   Me and myself
 
   ## GitHub Link
-  readmeGen.github.com
+  https://github.com/Thor40/readmeGen
   
   ## Version
   ```

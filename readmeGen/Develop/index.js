@@ -115,6 +115,18 @@ const questionsPrompt = () => {
             message: 'Provide additional acknowledgments to your project:',
             when: ({ confirmAck }) => confirmAck
         },
+        {
+            type: 'confirm',
+            name: 'confirmComm',
+            message: 'Would you like include additional comments?',
+            default: true
+        },
+        {
+            type: 'input',
+            name: 'comm',
+            message: 'Provide additional comments to your project:',
+            when: ({ confirmComm }) => confirmComm
+        },
     ])
 };
 
