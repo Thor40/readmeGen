@@ -37,6 +37,11 @@ const questionsPrompt = () => {
             message: 'Please provide a description for your project:',
         },
         {
+            type: 'input',
+            name: 'license',
+            message: 'Please provide any license information:',
+        },
+        {
             type: 'confirm',
             name: 'confirmPreReq',
             message: 'Would you like to enter prerequisite information in the "Getting Started" section?',

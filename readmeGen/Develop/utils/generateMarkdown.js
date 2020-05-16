@@ -88,7 +88,7 @@ function generateMarkdown(data) {
   ${generateV(data.version)}
   ${generateAck(data.ack)}
   ## License
-  Please paste your license information here:
+  ${data.license}
   ${generateComm(data.comm)}
 `;
 }
